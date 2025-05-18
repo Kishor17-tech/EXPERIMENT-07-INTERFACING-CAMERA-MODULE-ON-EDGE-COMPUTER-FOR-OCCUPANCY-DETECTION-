@@ -51,7 +51,7 @@ Write the Python code to initialize the camera and implement the HOG algorithm.
 Run the code and verify that the system detects human presence and draws bounding boxes.
 
  ###  Python Code:
- 
+``` 
 import cv2
 import imutils
 
@@ -88,17 +88,14 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-
+```
 ### SCREEN SHOTS OF OUTPUT 
 
-
-
-
+![scrnsh](https://github.com/user-attachments/assets/8ecd2157-aaba-4f30-b28d-855eec584f37)
 
 ### RASPI INTERFACE 
 
-
-
+![scrn photo](https://github.com/user-attachments/assets/1934d30d-1a80-4689-a453-49a3365ff7b8)
 
 ### Result:
 Occupancy detection using the HOG algorithm was successfully implemented. The system was able to identify and highlight human presence in real-time video streams.
